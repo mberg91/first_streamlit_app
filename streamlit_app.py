@@ -3,6 +3,7 @@ import pandas
 #new section to display fruityvice api response
 import requests
 import snowflake.connector
+from urllib.error import URLError
 
 streamlit.title('My Parents New Healthy Diner')
 
