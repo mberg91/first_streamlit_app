@@ -2,6 +2,7 @@ import streamlit
 import pandas
 #new section to display fruityvice api response
 import requests
+import snowflake.connector
 
 streamlit.title('My Parents New Healthy Diner')
 
